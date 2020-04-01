@@ -1,5 +1,5 @@
 {% set name = "pyvcd" %}
-{% set version = "0.1.7" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: be8071c25abbc7fe9e743680b82b6d8979067eca09268d6040baa988016db7c7
+  sha256: 1fd3b14aa691032a4d0f94696a3e4935bf8d05705f5a40775033b8c212473aae
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'The PyVCD package writes Value Change Dump (VCD) files as specified in IEEE 1364-2005.'
+  summary: The PyVCD package writes Value Change Dump (VCD) files as specified in IEEE 1364-2005.
 
   doc_url: http://pyvcd.readthedocs.io/en/latest/
   dev_url: https://github.com/SanDisk-Open-Source/pyvcd
