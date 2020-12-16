@@ -1,5 +1,5 @@
 {% set name = "pyvcd" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fad6b9e2cd68049968a43fd9f465a1f924050c0a654e28cc5aa04c1908f283ab
+  sha256: 071e51a8362908ad5a2a12f078185639b98b20b653a56f01679de169d0fa425d
 
 build:
   noarch: python
