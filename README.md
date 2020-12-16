@@ -5,11 +5,13 @@ Home: https://pypi.org/project/pyvcd
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyvcd-feedstock/blob/master/LICENSE.txt)
 
 Summary: The PyVCD package writes Value Change Dump (VCD) files as specified in IEEE 1364-2005.
 
+Development: https://github.com/SanDisk-Open-Source/pyvcd
 
+Documentation: http://pyvcd.readthedocs.io/en/latest/
 
 Current build status
 ====================
