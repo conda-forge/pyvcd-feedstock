@@ -119,4 +119,5 @@ Feedstock Maintainers
 =====================
 
 * [@TimSnyder](https://github.com/TimSnyder/)
+* [@davidbrochart](https://github.com/davidbrochart/)
 
