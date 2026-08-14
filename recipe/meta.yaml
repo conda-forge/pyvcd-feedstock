@@ -21,6 +21,7 @@ requirements:
     - uv-build >=0.9.13,<1.0
   run:
     - python >={{ python_min }}
+    - typing_extensions
 
 test:
   requires:
