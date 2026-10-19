@@ -1,5 +1,5 @@
 {% set name = "pyvcd" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 96e3c7b9409e63f58eb4b5c22b017f9f3412ddbdfc734cec2e1dfad5c29a83df
+  sha256: cd298f5d9038a8cb98bd4addbd7b4593563e320104957e705de949b9938ed7f7
 
 build:
   noarch: python
